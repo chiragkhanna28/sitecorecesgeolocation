@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{E4268774-2FF2-47BE-9AB5-130C1BAEC0B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CES.GeoIP", "CES.GeoIP", "{16F403AB-1BA9-4ABA-9CB5-D166B814DF26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CES.GeoIP", "src\Foundation\CES.GeoIP\CES.GeoIP.csproj", "{A4B31914-45B1-43F3-A09D-7BD986008D42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4B31914-45B1-43F3-A09D-7BD986008D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B31914-45B1-43F3-A09D-7BD986008D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B31914-45B1-43F3-A09D-7BD986008D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B31914-45B1-43F3-A09D-7BD986008D42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16F403AB-1BA9-4ABA-9CB5-D166B814DF26} = {E4268774-2FF2-47BE-9AB5-130C1BAEC0B6}
+		{A4B31914-45B1-43F3-A09D-7BD986008D42} = {16F403AB-1BA9-4ABA-9CB5-D166B814DF26}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB92FFA9-904D-4AAD-A872-4AE6F08755E2}
+	EndGlobalSection
+EndGlobal
